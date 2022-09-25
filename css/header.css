@@ -11,8 +11,9 @@
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  width: 24px;
+  margin-left: 7px;
   height: 24px;
+  width: 24px;
 }
 
 .container {
@@ -26,6 +27,10 @@
 
 .container__botao:checked ~ .lista-menu {
   display: block;
+}
+
+.container__botao {
+  display: none;
 }
 
 .lista-menu {
@@ -43,6 +48,7 @@
 
 .lista-menu__titulo {
   color: var(--laranja);
+  font-weight: 700;
 }
 
 .lista-menu__link {
