@@ -48,14 +48,12 @@
 .descricao__titulo {
   color: var(--laranja);
   font-weight: 700;
-  line-height: 24px;
 }
 
 .descricao__titulo-livro {
   color: var(--azul);
   font-size: 18px;
   font-weight: 700;
-  line-height: 27px;
   margin: 0.5em 0;
 }
 
@@ -68,6 +66,12 @@
   color: var(--branco);
   background-color: var(--laranja);
   font-weight: 700;
-  line-height: 24px;
   padding: 1em 2.2em;
+}
+
+.descricao__imagem {
+  width: 162px;
+  height: 168px;
+  left: 202px;
+  top: 21px;
 }
