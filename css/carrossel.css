@@ -80,7 +80,7 @@
   top: 21px;
 }
 
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .carrossel__titulo {
     font-size: 26px;
   }
@@ -101,5 +101,34 @@
   .card {
     width: 45%;
     margin: 2em auto;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .carrossel__container {
+    align-items: center;
+    display: flex;
+    margin: 0 20vw 3em 20vw;
+  }
+
+  .swiper-pagination {
+    margin: 1em 0;
+  }
+
+  .swiper {
+    width: 50%;
+  }
+
+  .card {
+    width: 60%;
+    margin-left: 3em;
+  }
+
+  .descricao__titulo {
+    font-size: 32px;
+  }
+
+  .descricao__texto {
+    font-size: 16px;
   }
 }
