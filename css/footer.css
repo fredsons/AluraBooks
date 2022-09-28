@@ -8,5 +8,44 @@ hr {
   padding: 1em;
 }
 
+.rodape__titulo {
+  font-weight: 400;
+}
+
+.lista-rodape {
+  display: none;
+}
+
 @media (min-width: 1024px) {
+  .rodape {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .lista-rodape {
+    display: block;
+  }
+
+  .lista-rodape__item {
+    align-items: center;
+    display: flex;
+    margin: 0.6em 0;
+  }
+
+  .lista-rodape__link {
+    color: var(cinza);
+    margin-left: 0.6em;
+  }
+
+  .lista-rodape__titulo {
+    color: var(--cinza-secundario);
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  .rodape__titulo {
+    font-size: 24px;
+    font-weight: 400;
+  }
 }

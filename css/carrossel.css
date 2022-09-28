@@ -41,6 +41,10 @@
   justify-content: space-between;
 }
 
+.botoes__item2 {
+  margin-left: 15px;
+}
+
 .botoes {
   display: flex;
 }
