@@ -34,8 +34,9 @@ hr {
   }
 
   .lista-rodape__link {
-    color: var(cinza);
+    color: var(--cinza);
     margin-left: 0.6em;
+    text-decoration: none;
   }
 
   .lista-rodape__titulo {
@@ -59,5 +60,11 @@ hr {
 
   .rodape {
     padding: 3em 0;
+  }
+
+  .lista-rodape__link {
+    color: var(--cinza);
+    margin-left: 0.6em;
+    text-decoration: none;
   }
 }
